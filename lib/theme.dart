@@ -13,9 +13,7 @@ class ThemeProvider extends ChangeNotifier {
   Color get bodyColor =>
       isDarkMode ? const Color(0xFF57209D) : Color(0xFFFDE456);
   Color get buttonColor => isDarkMode ? Color(0xFF57209D) : Colors.yellow;
-  Color get switchTrackColor => isDarkMode
-      ? Color(0xFF57209D)
-      : Color(0xFFFDE456); // Track rengi değiştirildi
+  // Track rengi değiştirildi
   Color get switchButtonColor =>
       isDarkMode ? Color(0xFF57209D) : Color(0xFFFDE456);
   String get switchImage =>
